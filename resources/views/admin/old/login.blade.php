@@ -4,7 +4,7 @@
 <!-- Added by HTTrack -->
 <!-- /Added by HTTrack -->
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>
@@ -13,12 +13,12 @@
 
 	<!-- Global stylesheets -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/core.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/components.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/colors.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ url('public/asset/Admin') }}/css_en/style.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/core.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/components.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/colors.min.css" rel="stylesheet" type="text/css">
+    <link href="{{ url('asset/Admin') }}/css_en/style.css" rel="stylesheet" type="text/css">
     <!-- /global stylesheets -->
 
     <!--begin::Web font -->
@@ -112,33 +112,33 @@
 
 
     <!-- Core JS files -->
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/loaders/pace.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/core/libraries/jquery.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/core/libraries/bootstrap.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/loaders/blockui.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/loaders/pace.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/core/libraries/jquery.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/core/libraries/bootstrap.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/loaders/blockui.min.js"></script>
     <!-- /core JS files -->
 
     <!-- Theme JS files -->
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/visualization/d3/d3.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/visualization/d3/d3_tooltip.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/ui/moment/moment.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/pickers/daterangepicker.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/visualization/d3/d3.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/visualization/d3/d3_tooltip.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/ui/moment/moment.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/pickers/daterangepicker.js"></script>
 
     <!-- Theme JS files -->
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/forms/styling/uniform.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/forms/styling/switchery.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/forms/styling/switch.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/forms/styling/uniform.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/forms/styling/switchery.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/forms/styling/switch.min.js"></script>
 
     <!-- Theme JS files -->
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/notifications/noty.min.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/plugins/notifications/jgrowl.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/notifications/noty.min.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/plugins/notifications/jgrowl.min.js"></script>
 
-    <script src="{{ url('public/asset/Admin') }}/js/app.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/demo_pages/components_notifications_other.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/demo_pages/form_checkboxes_radios.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/demo_pages/uploader_bootstrap.js"></script>
-    <script src="{{ url('public/asset/Admin') }}/js/demo_pages/dashboard.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/app.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/demo_pages/components_notifications_other.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/demo_pages/form_checkboxes_radios.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/demo_pages/uploader_bootstrap.js"></script>
+    <script src="{{ url('asset/Admin') }}/js/demo_pages/dashboard.js"></script>
     <!-- /theme JS files -->
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

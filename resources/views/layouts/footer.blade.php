@@ -27,13 +27,13 @@ $name = App\Models\StaticNames::get(['contact_us','contact_us_ar','icarier','ica
 {{-- check to see which current page to display the right image --}}
 @if(strpos($url, 'media'))
 
-    <img src="{{url('public/asset/'.Config::get('app.locale')).'/images/back1-1.png'}}" class="img-pos img-responsive"/>
+    <img src="{{url('asset/'.Config::get('app.locale')).'/images/back1-1.png'}}" class="img-pos img-responsive"/>
 
 @elseif(strpos($url, 'carier'))
 
-    <img src="{{url('public/asset/'.Config::get('app.locale')).'/images/back-1.png'}}" class="img-pos img-responsive"/>
+    <img src="{{url('asset/'.Config::get('app.locale')).'/images/back-1.png'}}" class="img-pos img-responsive"/>
 @elseif(strpos($url, 'study'))
-        <img src="{{url('public/asset/'.Config::get('app.locale')).'/images/back2-1.png'}}" class="img-pos img-responsive"/>
+        <img src="{{url('asset/'.Config::get('app.locale')).'/images/back2-1.png'}}" class="img-pos img-responsive"/>
 
 @endif
 

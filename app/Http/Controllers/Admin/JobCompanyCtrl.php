@@ -49,7 +49,7 @@ class JobCompanyCtrl extends Controller
         $data = $request->all();
 
         $data['image'] = null;
-        if(request('image')){
+        if(request('image'))
             $data['image'] = helpers::savePhoto('image','carierCompanies',$request);
 
         $data['slug'] = Str::slug(request('name'),'-');
@@ -62,7 +62,7 @@ class JobCompanyCtrl extends Controller
               'slug' => $slug,
           ]);
 
-          Alert::success(config('app.name'), trans('messages.Added Successfully') );
+          Alert::success(config('app.name'), trans('messages.Added Successfully'));
           return redirect()->route('admin.jobCompanies.index');
     }
 
@@ -141,13 +141,12 @@ class JobCompanyCtrl extends Controller
         if($request->file('image'))
         {
            $data['image'] = helpers::updatePhoto('image','carierCompanies',$request);
-            =$filenameToStore;
             Storage::delete('public/Images/carierCompanies/'.$job->image);
         }
 
         $job->update($data);
 
-        Alert::success(config('app.name'), trans('messages.Updated Successfully') );
+        Alert::success(config('app.name'), trans('messages.Updated Successfully'));
 
         if(request('site')){
             return redirect()->route('profile',['id' => $user->id,'type' => $user->type]);
